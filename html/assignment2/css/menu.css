@@ -1,0 +1,54 @@
+.user-name a{
+	float: right;
+	padding-top: 8px;
+	padding-bottom: 6px;
+	color: #333230;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.user-menu ul{
+	clear:both;
+	list-style: none;
+	float:right;
+}
+
+.user-menu ul li{
+	float:left;
+}
+
+
+
+.user-menu ul li a{
+	float: right;
+	text-decoration: none;
+	font-size: 11px;
+	color: #333230;
+}
+
+
+
+.lower-left-list ul li {
+	float: left; width: auto;
+	font-size: 14px;
+    line-height: 14px;
+    padding: 14px 15px ;
+}
+
+
+.lower-right-div ul{float:right; width:auto; padding: 12px 0px; font-size: 12px;}
+.lower-right-div li *{
+  
+  padding-left:5px;
+  padding-right:5px;
+  
+}
+.lower-right-div ul li{ float:left; width:auto;;}
+
+
+
+
+
+.list-items-right a{text-decoration:none;}
+
+.footer-left ul{list-style:none;}

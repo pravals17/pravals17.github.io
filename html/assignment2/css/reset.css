@@ -1,0 +1,19 @@
+*{ padding:0px;
+   margin:0px;
+}
+
+.clrfix:before,
+.clrfix:after {
+  content: "";
+  display: table;
+} 
+.clrfix:after {
+  clear: both;
+}
+.clrfix {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+a{text-decoration:none;color:black;}
+
+ul{list-style:none;}
