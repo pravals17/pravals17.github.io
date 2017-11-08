@@ -1,0 +1,46 @@
+.main-wrapper{min-width:1500px;}
+.header-wrapper{width:1500px; }
+.header-top{width:100%;background-image:url("../images/header-top-bg.png");background-repeat:repeat:x; padding-top:27px; padding-bottom:27px;}
+.header-top-container{width:1170px;margin:0 auto;}
+.logo{float:left; width:auto;}
+.headertop-menu {float:right; width:auto; }
+.headertop-menu  li{float:left; width:auto;}
+.header-bottom{width:100%;background:#ececec; }
+.header-bottom-container{width:1170px; margin:0 auto;}
+.headerbottom-left{float:left; width:auto;}
+
+.headerbottom-right{float:right; width:auto;}
+.headerbottom-right li {float:left; width:auto;}
+
+
+.body-wrapper:{width:1500px;}
+.body-container{width:100%;background:#f3f3f3;}
+.body-top-container{width:100%; background:#f3f3f3;}
+.top-small-slider{width:1170px; margin:0 auto;}
+.slide-topic{float:left; width:auto;}
+.slider-arrow{float:right; width:auto;}
+.slider-arrow li{float:left;}
+
+.main-slider{width:1170px; margin:0 auto;}
+.mainslides{position:relative;}
+.sliderarrow-left{position:absolute;left:0px;top:320px;}
+.sliderarrow-right{position:absolute; right:0px;top:320px;}
+.slide-indicator{padding-left:500px;}
+.slide-indicator li{width:60px; line-height:5px;}
+.project{width:1170px; margin:0 auto;}
+.project-description{float:left;width:770px;}
+.project-details{float:right; width:270px;}
+.project-details ul li{width:100%;padding-bottom:10px;padding-top:9px;}
+
+.relatedproj-header{width:1170px; margin:0 auto;padding-top:30px;}
+.related-topic{float:left; width:auto;padding-right:10px;}
+.line{float:left; width:auto;}
+.slider-arrow{float:right; width:auto;}
+.relatedproj-wrapper{width:1170px; margin:0 auto;padding-top:30px;}
+.related-projects-blocks{width:1170px; margin:0 auto; padding-bottom:80px;}
+.footer {width: 1500px;}
+.footer-top {width: 100%;background-color: #76c7c0;background-image: url("../images/footertop-bg.png");background-repeat: repeat-x;}
+.footer-top-wrap {width: 73.4375em; margin: 0 auto;}
+.footer-bottom {	width: 100%;background-color: #6ab3ad;}
+.footer-bottom-wrap {width: 73.4375em;margin: 0 auto;}
+
