@@ -158,6 +158,7 @@ let moveBirddown = setInterval(function(){
 								score.style.left = "200px";
 								score.style.top = "200px";
 								score.style.color = "red";
+								document.onkeydown = null;
 							}
 			
 							counter = counter-0.5;
@@ -173,6 +174,7 @@ let moveBirddown = setInterval(function(){
 									score.style.left = "200px";
 									score.style.top = "200px";
 									score.style.color = "red";
+									document.onkeydown = null;
 									break;
 									
 									
