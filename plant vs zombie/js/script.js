@@ -1182,7 +1182,7 @@ class Zombie{
 		this.hits = 0;
 		this.lastzombie = Date.now();
 		this.zombieimage = new Image();
-		this.zombieimage.src = "images/zombieHD.png";
+		this.zombieimage.src = "images/ZombieHD.png";
 		this.zombieimage.onload=() => {this.context.drawImage(this.zombieimage, this.x, this.y,this.width, this.height);}
 		
 	}
