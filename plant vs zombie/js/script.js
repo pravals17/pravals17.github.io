@@ -1732,7 +1732,7 @@ function replay(){
 		replay.style.left = "450px";
 		replay.style.width = "113px";
 		replay.style.height = "41px";
-		replay.style.background = "url('images/button.png')";
+		replay.style.background = "url('images/Button.png')";
 		replay.style.position = "absolute";
 		replay.style.left = "400px";
 		playagain.appendChild(replay);

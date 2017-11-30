@@ -13,7 +13,7 @@ function gameload(){
 	play.innerHTML="Play";
 	play.style.width = "113px";
 	play.style.height = "41px";
-	play.style.background = "url('images/button.png')";
+	play.style.background = "url('images/Button.png')";
 	play.style.position = "absolute";
 	play.style.top = "250px";
 	play.style.left = "400px";
