@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>ModusVersus</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/layout.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div class="main-wrapper">
+			
+			<!--header region-->
+			<div class="head-wrapper">
+			
+				<!--header top-->
+				<div class="header-top">
+					<div class="header-top-container clrfix">
+						<div class="logo"><img src="images/logo.png" alt="ModusVersus_logo">
+						</div>
+						<div class="headertop-menu clrfix">
+							<ul>
+								<li><a href="#">HOME</a></li>
+								<li><a href="#">ABOUT</a></li>
+								<li><a href="#">SERVICES</a></li>
+								<li class="active"><a href="#" onmouseover="portfoliomenu()" onmouseout="portfoliomouseout()"><span class="submenu-arrow"><img src="images/submenu-arrow.png" alt="submenu"></span>PORTFOLIO</a>
+									<ul class="submenu" id= "submenu" onmouseover="portfoliomenu()" onmouseout="portfoliomouseout()">
+										<li><a href="#">PORTFOLIO 1</li>
+										<li><a href="#">PORTFOLIO 2</li>
+										<li><a href="#">PORTFOLIO 3</li>
+									</ul>
+								
+								
+								</li>
+								<li><a href="#">BLOG</a></li>
+								<li><a href="#">FEATURES</a></li>
+								<li><a href="#">CONTACTS</a></li>
+								<li><a href="#"><span><img src="images/search.png" alt="search-btn"></span></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<!--header bottom-->
+				<div class="header-bottom">
+					<div class="header-bottom-container clrfix">
+						<!--<img src="images/header-bottom-triangle.png" alt="traingle">-->
+						<div class="headerbottom-left"><span>PORTFOLIO</span>
+						</div>
+						<div class="headerbottom-right">
+							<ul>
+								<li><a href="#">Home</a></li>
+								<li><span><img src="images/headerbottom-menuseparater.png" alt="menu separater"></span></li>
+								<li><a href="#">Podtfolio</a></li>
+								<li><span><img src="images/headerbottom-menuseparater.png" alt="menu separater"></span></li>
+								<li><a href="#">WORDPRESS</a></li>
+							</ul>
+						</div>
+					
+					</div>
+				</div>
+			</div>
+			<!--body content-->
+			<div class="body-wrapper">
+			  <div class="body-container">
+				<div class="body-top-container">
+					<div class="top-small-slider clrfix">
+						<div class="triangle"><img src="images/header-bottom-triangle.png" alt="traingle">
+						</div>
+					
+						<div class="slide-topic" >
+							<span id ="slidetopic">Donec faucibus ultricies congue</span>
+						
+						</div>
+						
+						<div class="slider-arrow ">
+							<div class="slider-arrow clrfix">
+							<ul>
+								<li><input type="image" src="images/left-arrow.png" alt="left" class="left-arrow" onclick = "slideimgprevtop()"></li>
+								<li><input type="image" src="images/right-arrow.png" alt="right" class="right-arrow" onclick = "slideimgnexttop()"></li>
+							</ul>
+							
+						</div>
+							
+						</div>
+						
+						
+					
+					</div>
+					
+					
+				</div>
+				
+				
+				<div class="main-slider">
+					
+					<div class="mainslides" id="mainslide">
+							
+								<ul id="slider">
+									<li><img src="images/himal1.png" alt="slide1"></li>
+									<li><img src="images/himal2.png" alt="slide2"></li>
+									<li><img src="images/himal3.png" alt="slide2"></li>
+									<li><img src="images/animal1.png" alt="slide1"></li>
+									<li><img src="images/animal2.png" alt="slide2"></li>
+									<li><img src="images/animal3.png" alt="slide2"></li>
+									<li><img src="images/bird1.png" alt="slide1"></li>
+									<li><img src="images/bird2.png" alt="slide2"></li>
+									<li><img src="images/bird3.png" alt="slide2"></li>
+								</ul>	
+							<div class="sliderarrow-left"><a href="#"><img src="images/mainslider-left.png" alt="left-arrow" onclick ="slideimgprev()"></a></div>
+							<div class="sliderarrow-right"><a href="#"><img src="images/mainslider-right.png" alt="right-arrow" onclick ="slideimgnext()"></a></div>
+					</div>
+					
+					
+					<div class="slide-indicator clrfix">
+						<ul>
+							<li><a href="#"class="indicator-active" id="firstli">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+							<li><a href="#" id="secondli">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+							<li><a href="#"id="thirdli">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+						</ul>
+						
+					</div>
+				
+			  </div>
+			  
+			  <div class="project clrfix">
+					<div class="project-description">
+						<h2>PROJECT DESCRIPTION</h2>
+						<p>Maecenas eget turpis turpis. Nunc vel metus augue. Aenean euismod cursus ligula eget dapibus. Praesent vel erat in tortor placerat dignissm.</p>
+						<p>Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in laculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Eget euismod sem scelerisque ut. Vivamus at lit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+					</div>
+					
+					
+					<div class="project-details clrfix">
+						<h2>PROJECT DETAILS</h2>
+						<ul>
+							<li><span class="calender"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <span class="align-left">Release date</span><span class="align-right">26 May 2013</span></li>
+							<li><hr></li>
+							<li><span class="setting">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <span class="align-left">Technologies</span><span class="align-right"><ul><li>HTML5/CSS</li><li>WORDPRESS</li></ul></span></li>
+							<li><hr></li>
+							<li><span class="client"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <span class="align-left">CLient</span><span class="align-right">Mighty Client</span></li>
+							<li><hr></li>
+							<li><span class="chain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span> <span class="align-left">Project URL</span><span class="align-right"><a href="#">VIEW PROJECT</a></span></li>
+						</ul>
+					
+					
+					</div>
+			  </div>
+			  
+			  
+			  
+			  <div class="related-projects">
+					<div class="relatedproj-header clrfix">
+						<div class="related-topic">
+							<h3>RELATED PROJECTS</h3>
+						
+						</div>
+						<div class="line"><img src="images/relatedproj-line.png" alt="line-image"></div>
+						<div class="slider-arrow bottom clrfix">
+							<ul>
+								<li><input type="image" src="images/left-arrow.png" alt="left" class="left-arrow" onclick="rowsliderprev()"></li>
+								<li><input type="image" src="images/right-arrow.png" alt="right" class="right-arrow" onclick="rowslidernext()"></li>
+							</ul>
+							
+						</div>
+						
+					
+					</div>
+					<div  class="related-projects-blocks clrfix">
+					<ul class='project-list' id="rowslider">
+							<li class='project-image'>
+								<img src='images/mt1.jpg' alt='project-image'>
+								<p>Lorem ipsum</p>
+								<a class='eye' href='#' target='_blank'><span class="fa fa-eye" aria-hidden="true"></span></a>
+								<a class='link' href='#' target='_blank'><span class="fa fa-link" aria-hidden="true"></span></a>
+							</li>
+							<li class='project-image'>
+								<img src='images/mt1.jpg' alt='project-image'>
+								<p>Lorem ipsum</p>
+								<a class='eye' href='#' target='_blank'><span class="fa fa-eye" aria-hidden="true"></span></a>
+								<a class='link' href='#' target='_blank'><span class="fa fa-link" aria-hidden="true"></span></a>
+							</li>
+							<li class='project-image'>
+								<img src='images/mt1.jpg' alt='project-image'>
+								<p>Lorem ipsum</p>
+								<a class='eye' href='#' target='_blank'><span class="fa fa-eye" aria-hidden="true"></span></a>
+								<a class='link' href='#' target='_blank'><span class="fa fa-link" aria-hidden="true"></span></a>
+							</li>
+							<li class='project-image'>
+								<img src='images/mt1.jpg' alt='project-image'>
+								<p>Lorem ipsum</p>
+								<a class='eye' href='#' target='_blank'><span class="fa fa-eye" aria-hidden="true"></span></a>
+								<a class='link' href='#' target='_blank'><span class="fa fa-link" aria-hidden="true"></span></a>
+							</li>	
+							
+					<!-------------------------------->
+							<li class='project-image'>
+								<img src='images/mt2.jpg' alt='project-image'>
+								<p>Lorem ipsum</p>
+								<a class='eye' href='#' target='_blank'><span class="fa fa-eye" aria-hidden="true"></span></a>
+								<a class='link' href='#' target='_blank'><span class="fa fa-link" aria-hidden="true"></span></a>
+							</li>
+							<li class='project-image'>
+								<img src='images/mt2.jpg' alt='project-image'>
+								<p>Lorem ipsum</p>
+								<a class='eye' href='#' target='_blank'><span class="fa fa-eye" aria-hidden="true"></span></a>
+								<a class='link' href='#' target='_blank'><span class="fa fa-link" aria-hidden="true"></span></a>
+							</li>
+							<li class='project-image'>
+								<img src='images/mt2.jpg' alt='project-image'>
+								<p>Lorem ipsum</p>
+								<a class='eye' href='#' target='_blank'><span class="fa fa-eye" aria-hidden="true"></span></a>
+								<a class='link' href='#' target='_blank'><span class="fa fa-link" aria-hidden="true"></span></a>
+							</li>
+							<li class='project-image'>
+								<img src='images/mt2.jpg' alt='project-image'>
+								<p>Lorem ipsum</p>
+								<a class='eye' href='#' target='_blank'><span class="fa fa-eye" aria-hidden="true"></span></a>
+								<a class='link' href='#' target='_blank'><span class="fa fa-link" aria-hidden="true"></span></a>
+							</li>	
+							
+					<!-------------------------------->
+							<li class='project-image'>
+								<img src='images/mt3.jpg' alt='project-image'>
+								<p>Lorem ipsum</p>
+								<a class='eye' href='#' target='_blank'><span class="fa fa-eye" aria-hidden="true"></span></a>
+								<a class='link' href='#' target='_blank'><span class="fa fa-link" aria-hidden="true"></span></a>
+							</li>
+							<li class='project-image'>
+								<img src='images/mt3.jpg' alt='project-image'>
+								<p>Lorem ipsum</p>
+								<a class='eye' href='#' target='_blank'><span class="fa fa-eye" aria-hidden="true"></span></a>
+								<a class='link' href='#' target='_blank'><span class="fa fa-link" aria-hidden="true"></span></a>
+							</li>
+							<li class='project-image'>
+								<img src='images/mt3.jpg' alt='project-image'>
+								<p>Lorem ipsum</p>
+								<a class='eye' href='#' target='_blank'><span class="fa fa-eye" aria-hidden="true"></span></a>
+								<a class='link' href='#' target='_blank'><span class="fa fa-link" aria-hidden="true"></span></a>
+							</li>
+							<li class='project-image'>
+								<img src='images/mt3.jpg' alt='project-image'>
+								<p>Lorem ipsum</p>
+								<a class='eye' href='#' target='_blank'><span class="fa fa-eye" aria-hidden="true"></span></a>
+								<a class='link' href='#' target='_blank'><span class="fa fa-link" aria-hidden="true"></span></a>
+							</li>	
+								
+								
+						</ul>
+				</div>
+				
+			</div>
+			
+		  </div>
+		  
+			<div class="footer-wrapper">
+				<div class="footer-top">
+					<div class="footer-top-wrap clrfix">
+						<div class="footer-para">
+							<div class="logo-footer">
+								<img src="./images/logo.png">
+							</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec.</p>
+								<p>Phone: <span class="bold"> 182 2569 5896</span><br>
+								e-mail: <span class="bold"> info@modu.versus</p></span>
+							</div>
+							<div class="footer-list">
+								<h3>Company</h3>
+									<ul>
+										<li><a href="href">About</a></li>
+										<li><a href="href">FAQ</a></li>
+										<li><a href="href">Contact</a></li>
+										<li><a href="href">Terms</a></li>
+										<li><a href="href">Privacy</a></li>
+										<li><a href="href">Testimonials</a></li>
+									</ul>
+							</div>
+						<div class="footer-list">
+							<h3>Community</h3>
+							<ul>
+								<li><a href="href">Blog</a></li>
+								<li><a href="href">Forum</a></li>
+								<li><a href="href">Support</a></li>
+								<li><a href="href">Newsletter</a></li>
+							</ul>
+						</div>
+					<div class="footer-right">
+						<p><span class="bolder white">from the</span><span class="extrabold white"> BLOG</p></span>
+						<div class="details clrfix">
+							<div class="photo"><img src="images/footer-image.png" alt="image-small" title=""></div>
+							<div class="lefter">
+								<ul>
+									<li><span class="white">Lorem ipsum dolor sit amet, consectetur</span></li>
+									<li><span class="white"> adipiscing elit</span></li>
+									<li>26 May, 2013</li>
+								</ul>
+							</div>
+						</div>
+						<div class="details">
+							<div class="photo"><img src="images/footer-image.png" alt="small-image" title=""></div>
+							<div class="lefter">
+								<ul>
+									<li><span class="white">Lorem ipsum dolor sit amet, consectetur</span></li>
+									<li><span class="white"> adipiscing elit</span></li>
+									<li>26 May, 2013</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="footer-bottom-wrap clrfix">
+					<div class="footer-bottom-left white">
+						2013 Modus Versus
+					</div>
+					<div class="footer-bottom-right">
+						<ul>
+							<li><a href="#"><img src="./images/facebook.png" alt="" title=""></a></li>
+							<li><a href="#"><img src="./images/googleplus.png" alt="" title=""></a></li>
+							<li><a href="#"><img src="./images/twitter.png" alt="" title=""></a></li>
+							<li><a href="#"><img src="./images/share.png" alt="" title=""></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		  
+		  
+		</div>
+	
+	<script src="script.js"></script>
+	</body>
+
+
+
+</html>
