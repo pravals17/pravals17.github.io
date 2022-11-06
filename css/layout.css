@@ -2,3 +2,24 @@
   background:#fff;
   min-width:1002px; 
 }
+
+.col2-left{
+	#background:purple;
+	width:938px;
+	#height: 625px;
+	#margin: 0 auto;
+	margin: 30px auto 32px auto;
+	#background-image: url("../images/repeating-background.png");
+	background-repeat: repeat-y;
+}
+
+.col2left-left{
+	#background:pink;
+	width:194px;
+	float:left;
+}
+
+.col3left-main {
+	float:right; 
+	width:auto;
+}
