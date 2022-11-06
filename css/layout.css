@@ -4,8 +4,8 @@
 }
 
 .col2-left{
-	#background:purple;
-	width:938px;
+	background:purple;
+	width:auto;
 	#height: 625px;
 	#margin: 0 auto;
 	margin: 30px auto 32px auto;
@@ -19,7 +19,7 @@
 	float:left;
 }
 
-.col3left-main {
+.col2left-main {
 	float:right; 
 	width:auto;
 }
