@@ -6,7 +6,8 @@
 .body-wrapper{
 	width:auto;
 	height: 70vh;
-  width: 98vw
+  width: 95vw;
+  margin: 50px;
 }
 
 /*.profilepic{
@@ -53,9 +54,18 @@
 
 .publications{
 	#height: 100vh;
+	margin: 50px;
   width: auto;
 }
 
+.projects{
+	margin: 50px;
+	width: auto;
+}
+.cv{
+	margin: 50px;
+	width: auto;
+}
 
 @media screen and (max-width: 600px) {
   .col2left-left {
