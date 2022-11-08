@@ -2,10 +2,10 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Praval Sharma's Homepage</title>
 		<link rel="stylesheet" type="text/css" href="css/layout.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 
 
@@ -13,55 +13,87 @@
 	
 	<div class="main-container-wrapper">
 		<div class="menu">
-			<ul>
-				<li><a href="#home">About</a></li>
+			<ul class="menulist">
+				<li><a href="#aboutme">About</a></li>
 				<!--<li><a href="#news">Research</a></li> -->
-				<li><a href="#contact">Publications</a></li>
-				<li><a href="#contact">Projects</a></li>
-				<li><a href="#about">Contact</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#publications">Publication</a></li>
+				<!--<li><a href="#aboutme">Contact</a></li> -->
 				<li><a href="#cv">CV </a></li>
 			</ul>
 		</div>
 		<div class="body-wrapper">
-			<div class="col2left">
+			<!--<div class="col2left">-->
 				<!--left column-->
-				<div class="col2left-left clearfix">	
-					<div class="profilepic">
+				<div class="col2left-left clrfix">	
+					<!--<div class="profilepic">-->
 						<img class= "mypic" src="images/mypic.png" alt="my profile pic">
-					</div>
-					<p><b>Praval Sharma</b></p> 
-    				<p>Ph.D. Student</p>
-    				<p>School of Computing</p>
-    				<p>University of Nebraska-Lincoln</p>
-    				<p>psharma4[at]huskers.unl.edu</p>
-    				<br>
-    				<div>
-	    				<ul>
-							<li><a href="https://scholar.google.com/citations?hl=en&user=Y9jWZq8AAAAJ"><img alt="google scholar" src="images/googlescholar.png" width="15px" height="15px" style="margin-left: 40px"></a></li>
+					<!--</div>-->
+					<div style="overflow: auto;">
+						<p><b>Praval Sharma</b></p> 
+	    				<p>122D Avery Hall</p>
+	    				<p>School of Computing</p>
+	    				<p>University of Nebraska-Lincoln</p>
+	    				<p>psharma4[at]huskers.unl.edu</p>
+	    				<br>
+    				</div>
+    				<!--<div>-->
+	    				<ul class="socialmedia" id="contact">
+							<li><a href="https://scholar.google.com/citations?hl=en&user=Y9jWZq8AAAAJ"><img alt="google scholar" src="images/googlescholar.png" width="15px" height="15px" style="margin-left: 20px"></a></li>
 							<li><a href="https://orcid.org/0000-0002-9485-1644"><img alt="orcid" src="images/orcid.png" width="15px" height="15px"></a></li>
-							<li><a href="#"><img alt="github" src="images/github.png" width="15px" height="15px"></a></li>
-							<li><a href="#"><img alt="linkedin" src="images/linkedin.png" width="15px" height="15px"></a></li>
-							<li><a href="#"><img alt="twitter" src="images/twitter.png" width="15px" height="15px"></a></li>
+							<li><a href="https://github.com/pravals17"><img alt="github" src="images/github.png" width="15px" height="15px"></a></li>
+							<li><a href="https://www.linkedin.com/in/praval-sharma-641685141/"><img alt="linkedin" src="images/linkedin.png" width="15px" height="15px"></a></li>
+							<li><a href="https://twitter.com/pravals17"><img alt="twitter" src="images/twitter.png" width="15px" height="15px"></a></li>
 						</ul>
-					</div>
+					<!--</div>-->
 				</div>
 				<!--main central column-->
 				<div class="col2left-main">
-					<div class="contentpane">
-						<p>I am a Ph.D. student in the School of Computing at the University of Nebraska-Lincoln advised by Dr. Ashok Samal and Dr. Leen-Kiat Soh. I am a research assistant in the <a href="https://www.cse.unl.edu/~surge">SURGE</a> research project.</p>
+					<div class="contentpane" id="aboutme">
+						<h1>About Me</h1>
+						<p>I am a Ph.D. student in the School of Computing at the University of Nebraska-Lincoln advised by <a href="https://cse-apps.unl.edu/facdb/users/12/details">Dr. Ashok Samal</a> and <a href="https://cse.unl.edu/~lksoh/">Dr. Leen-Kiat Soh </a>. I am a research assistant in the <a href="https://www.cse.unl.edu/~surge">SURGE</a> research project.</p>
 						<br>
 						<p>I am interested in spatial data mining, natural language processing, and GIS. Currently, I am working on extracting the 5Ws (where, when, who, what, and why) of events reported in news articles using NLP and spatial data mining techniques.</p>
 						<br>
 						<p>Outside of research, I enjoy sports, travelling, and music.</p>
 					</div>
 				</div>
-			</div>
+			<!--</div>-->
 		</div>
 	</div>
 	
-	
-	
-	
+	<div class="projects" id="projects">
+			<h1>Selected Projects</h1>
+			   <ul>
+			      <li>
+			         <p><b>SURGE</b></p>
+			         <p>More information about the project  <a href="https://www.cse.unl.edu/~surge">here</a>.</p>
+			      </li>
+			      <br>
+			      <li>
+			      	<p>Spatial statistical modeling of social unrest events</p>
+			      	<p>Details comming soon...</p>
+			      </li>
+			      <br>
+			      <li>
+			      	<p>A case study on using GIS to track the spread of COVID-19 in the New York state</p>
+			      	<p>Details comming soon...</p>
+			      </li>
+			   </ul>
+		</div>
+	<div class="publications" id="publications">
+			<h1>Publication</h1>
+			   <ul>
+			      <li>
+			         <p>Sharma, P., Samal, A., Soh, LK., Joshi, D., A spatially-aware algorithm for location extraction from structured documents.<cite>GeoInformatica</cite> (2022). https://doi.org/10.1007/s10707-022-00482-1.</p>
+			         <p> Read the paper <a href="https://rdcu.be/cYZ9g"> here</a>.</p>
+			      </li>
+			   </ul>
+		</div>
+	<div class="cv" id="cv">
+			<h1>CV</h1>
+			<p>Website under maintainence. Coming soon...</p>
+		</div>
 	</body>
 
 

@@ -1,32 +1,44 @@
 .main-container-wrapper{
   background:#fff;
-  min-width:1002px; 
+  #min-width:1002px; 
 }
 
-.col2left{
+.body-wrapper{
 	width:auto;
+	height: 70vh;
+  width: 98vw
 }
 
-.profilepic{
+/*.profilepic{
 	margin: 40px;
 	float:left;
-	width:223px;
-	}
+	width:72%;
+	}*/
 
 .mypic{
-	height: 100%;
-	width: 100%;
+	height: 80%;
+	width: 80%;
 	border-radius: 50%;
+	margin: 20px;
 }
 
-.clearfix {
+.clrfix {
   overflow: auto;
+}
+
+.clrfix:before,
+.clrfix:after {
+  content: "";
+  display: block;
+} 
+.clrfix:after {
+  clear: both;
 }
 
 .col2left-left{
 	background:#7dd9e8;
 	margin: 30px auto 32px auto;
-	width:318px;
+	width:20%;
 	float:left;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
@@ -35,6 +47,19 @@
 
 .col2left-main {
 	float:left; 
-	width:794px;
+	width:62%;
 	margin: 30px 20px 32px 20px;
+}
+
+.publications{
+	#height: 100vh;
+  width: auto;
+}
+
+
+@media screen and (max-width: 600px) {
+  .col2left-left {
+    float: none;
+    width: auto;
+  }
 }
