@@ -3,23 +3,38 @@
   min-width:1002px; 
 }
 
-.col2-left{
-	background:purple;
+.col2left{
 	width:auto;
-	#height: 625px;
-	#margin: 0 auto;
-	margin: 30px auto 32px auto;
-	#background-image: url("../images/repeating-background.png");
-	background-repeat: repeat-y;
+}
+
+.profilepic{
+	margin: 40px;
+	float:left;
+	width:223px;
+	}
+
+.mypic{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+
+.clearfix {
+  overflow: auto;
 }
 
 .col2left-left{
-	#background:pink;
-	width:194px;
+	background:#7dd9e8;
+	margin: 30px auto 32px auto;
+	width:318px;
 	float:left;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
 }
 
 .col2left-main {
-	float:right; 
-	width:auto;
+	float:left; 
+	width:794px;
+	margin: 30px 20px 32px 20px;
 }
